@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Mulish', sans-serif;
+}
+
+.main-navbar {
+    background-color: #9cb8a0;
+}
+
+.dropdown-menu {
+    background: transparent;
+    border: none
+}
+
+.dropdown-menu a img {
+    max-width: 46px;
+}
+
+.navbar-brand > img {
+    max-width: 33px;
+}
+
+.menu-container {
+    max-width: 630px;
+}
+
+.menu-category .card-header {
+    border: none
+}
+
+.category-container .category-title {
+    font-family: 'Mulish', sans-serif;
+}
+
+.menu-item {
+    border-bottom: 1px solid #ecf0f1
+}
+
+.menu-item .menu-item-title {
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+}
+
+.menu-item .menu-item-descr {
+    font-size: 11px;
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
+}
+
+.menu-item-price {
+    font-family: 'Noto Serif', serif;
+}
+
+.restaurant-info {
+    background-color: #9d8971;
+}
