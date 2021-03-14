@@ -48,6 +48,8 @@ Since the menu and website contents are not updated in a regular basis there is 
 ### Back End
 Sto Psito takes advantage of AWS' API Gateway, Lambda and DynamoDB features to implement a bespoke reservations system. Specifically, Lambda functions process API Gateway events to write new reservations to Dynamo. After the new reservation has been written to the DB, another lambda function handles notifying the customers and resturant via Emails and SMS. 
 
+<img src="https://stopsito.net/media/wow.jpeg" alt="much wow">
+
 ### Built With
 
 * [Pure HTML / CSS / Javascript (Frontend)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
